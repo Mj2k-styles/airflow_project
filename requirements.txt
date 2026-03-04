@@ -1,0 +1,24 @@
+# ==================================================
+# Pipeline ETL - OpenWeatherMap avec Apache Airflow
+# ==================================================
+# 
+# Dépendances pour le projet de Data Engineering
+# Installation : pip install -r requirements.txt
+# Ou avec uv : uv pip install -r requirements.txt
+
+# Apache Airflow - Orchestration des workflows
+apache-airflow>=3.1.7
+
+# Manipulation de données
+pandas>=3.0.1
+
+# Requêtes HTTP
+requests>=2.31.0
+
+# Gestion des variables d'environnement
+python-dotenv>=1.0.0
+
+# Dépendances additionnelles pour Airflow
+# (peuvent être nécessaires selon votre système)
+# flask>=3.0.0
+# werkzeug>=3.0.0
